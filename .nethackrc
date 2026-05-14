@@ -1,0 +1,23 @@
+OPTIONS=name:Lapis
+OPTIONS=color,DECgraphics,travel,time,showexp,showscore,showrace
+OPTIONS=perm_invent,fixinv,sortpack,hilite_pet,safe_pet
+OPTIONS=autoquiver,autodig,extmenu,lit_corridor
+OPTIONS=number_pad:0,statuslines:2,hitpointbar
+OPTIONS=pickup_burden:stressed
+OPTIONS=autopickup,pickup_types:$?!/=*
+OPTIONS=menucolors,fruit:pan pizza
+
+
+MENUCOLOR=" blessed "=green
+MENUCOLOR=" holy "=green
+MENUCOLOR=" uncursed "=yellow
+MENUCOLOR=" cursed "=red
+MENUCOLOR=" unholy "=red
+MENUCOLOR=" cursed .* \(being worn\)"=orange&underline
+
+MENUCOLOR="loadstone\|wand \(of\|called\) cancellation"=cyan
+MENUCOLOR="Amulet of Yendor named"=magenta
+MENUCOLOR="gold piece"=yellow
+
+MENUCOLOR=". -.* \[\(Unskilled\|Basic\|Skilled\|Expert\|Master\)"=white
+MENUCOLOR="[a-zA-Z] - [a-zA-Z ]+[ ]+[0-9]+\*[ ]+[a-z]+[ ]+[0-9]+%"=magenta
