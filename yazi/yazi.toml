@@ -17,9 +17,9 @@ edit = [
 
 [open]
 prepend_rules = [
-    { name = "*.json", use = "edit" },
-    { name = "*.md", use = "edit" },
-    { name = "*.py", use = "edit" },
-    { name = "*.cpp", use = "edit" },
-    { name = "*.c", use = "edit" },
+    { mime = "application/json", use = "edit" },
+    { url = "*.md", use = "edit" },
+    { url = "*.py", use = "edit" },
+    { url = "*.cpp", use = "edit" },
+    { url = "*.c", use = "edit" },
 ]
